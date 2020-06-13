@@ -22,7 +22,7 @@ export default class Discussion extends Component {
         clearInterval(this.liveTime);
     }
 
- render() {
+    render() {
      const { pageTitle, currentTime } = this.state;
      return(
          <div>
