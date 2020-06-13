@@ -19,6 +19,11 @@ export default function() {
             Workflow
           </NavLink>
         </div>
+        <div>
+          <NavLink exact to="/discussionlist">
+            Discussion List
+          </NavLink>
+        </div>
       </div>
     );
 }
